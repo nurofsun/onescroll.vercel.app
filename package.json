@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "onescroll-landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "scripts": {
+    "compile:css": "node-sass --watch --recursive ./src/sass --output ./assets/css",
+    "build:css": "postcss assets/css/style.css --map --replace --verbose"
+  }
+}
