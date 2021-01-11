@@ -16,5 +16,8 @@
   "scripts": {
     "compile:css": "node-sass --watch --recursive ./src/sass --output ./assets/css",
     "build:css": "postcss assets/css/style.css --map --replace --verbose"
+  },
+  "dependencies": {
+    "@nurofsun/onescroll": "^1.0.1"
   }
 }

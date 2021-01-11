@@ -1,0 +1,11 @@
+root=true
+
+[*{.html,.scss,.css}]
+charset      = utf-8
+indent_style = space
+indent_size  = 2
+
+[{package.json}]
+charset      = none
+indent_style = space
+indent_size  = 2

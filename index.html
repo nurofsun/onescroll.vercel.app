@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/style.css" media="all">
+    <title>OneScroll.js | Yet Lightweight fullpage scroll javascript library</title>
+  </head>
+  <body class="onescroll">
+    <div class="onescroll-container">
+      <header class="onescroll-section">
+        <nav class="navbar is-fixed is-transparent">
+          <div class="navbar-container">
+            <a class="navbar-logo" href="/">
+              <img src="assets/images/logo.svg" alt="OneScroll">
+            </a>
+            <a class="button has-icon" href="https://github.com/nurofsun/onescroll" role="button">
+              Github
+            </a>
+          </div>
+        </nav>
+        <div class="container">
+          <section class="hero-content">
+            <div class="hero-body is-grow">
+              <h1 class="title">
+                Scrolling Your Page<br>
+                Without Frustration
+              </h1>
+              <a href="#!" role="button" class="inline-block button is-large">
+                Download
+              </a>
+              <p class="hero-paragraph">
+              Or you may want to install through node package manager.
+              </p>
+              <pre>$ npm install @nurofsun/onescroll</pre>
+            </div>
+            <div class="hero-image">
+              <img src="assets/images/arrow-illustration.svg" alt="Arrow Illustration">
+            </div>
+          </section>
+        </div>
+      </header>
+      <main class="onescroll-section mountain-illustration">
+        <div class="container is-fullheight d-flex items-center is-fullwidth">
+          <section class="features is-fullwidth">
+            <header>
+              <h2 class="subtitle">Features</h2>
+            </header>
+            <div class="columns">
+              <div class="column">
+                <article class="card">
+                  <header>
+                    <h2 class="card-title">Flexibility</h2>
+                  </header>
+                  <div class="card-body">
+                    <img class="card-image" src="assets/images/flexibility.svg" alt="Flexibility">
+                    <p class="card-paragraph">
+                    Integration quite easy, you can use any CSS framework.
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card is-blue">
+                  <header>
+                    <h2 class="card-title">Lightweight</h2>
+                  </header>
+                  <div class="card-body">
+                    <img class="card-image" src="assets/images/lightweight.svg" alt="Lightweight">
+                    <p class="card-paragraph">
+                    The file size make you smile,<br>trust me ! 
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="column">
+                <article class="card">
+                  <header>
+                    <h2 class="card-title">No Dependencies</h2>
+                  </header>
+                  <div class="card-body">
+                    <img class="card-image" src="assets/images/nodependencies.svg" alt="No Dependencies">
+                    <p class="card-paragraph">
+                    There's no jQuery inside this library.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="assets/js/onescroll.js"></script>
+    <script>
+      let onescroll = new OneScroll('.onescroll');
+      onescroll.init();
+    </script>
+  </body>
+</html>

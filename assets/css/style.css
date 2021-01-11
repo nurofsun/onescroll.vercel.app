@@ -1,0 +1,233 @@
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+*, *::before, *::after {
+  box-sizing: inherit; }
+
+button {
+  padding: 0px;
+  margin: 0px;
+  font: inherit;
+  border: none;
+  outline: none;
+  background-color: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px;
+  font-size: inherit; }
+
+p {
+  padding: 0px;
+  margin: 0px; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.card.is-blue {
+  background-color: #5D3DFF !important;
+  color: #FAF9FF !important;
+  box-shadow: 0px 50px 50px rgba(78, 58, 182, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  transform: translateY(35px); }
+
+.card:not(:nth-child(2)) {
+  background-color: #FAF9FF;
+  color: #624FC0;
+  box-shadow: 0px 50px 50px rgba(78, 58, 182, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px; }
+
+.card-title {
+  font-size: 20px;
+  font-weight: medium; }
+
+.card-paragraph {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px; }
+
+.onescroll {
+  overflow-y: hidden; }
+
+.onescroll-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  transition: bottom .7s; }
+
+.onescroll-section {
+  height: 100vh; }
+
+.onescroll-control {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0px;
+  right: 0px; }
+
+body {
+  background-color: #3B2F7B;
+  color: #FAF9FF;
+  font-size: 100%;
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.45; }
+
+.hero-paragraph {
+  font-size: 18px;
+  margin: 10px 0px; }
+
+pre {
+  padding: 10px;
+  margin: 0px;
+  background-color: #2B2162;
+  font-size: 18px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 4px;
+  text-align: left; }
+
+.navbar-logo {
+  display: inline-block; }
+
+.navbar-logo img {
+  width: 150px;
+  height: auto; }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 15px; }
+
+.navbar.is-transparent {
+  background-color: transparent; }
+
+.navbar-container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+
+.navbar.is-fixed {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px; }
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.button {
+  display: inline-block;
+  padding: 5px 12px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #F5F3FF;
+  font-weight: 500;
+  color: #3109FF;
+  font-size: 24px;
+  border-radius: 4px; }
+
+.button:hover {
+  background-color: #8A74FF;
+  color: #ffffff; }
+
+.button:focus {
+  padding: 2px 9px !important;
+  background-color: #AB9BFf;
+  color: #ffffff;
+  border: 3px solid rgba(123, 97, 255, 0.5); }
+
+.button.is-large {
+  padding: 10px 17px;
+  font-size: 32px; }
+
+.button.is-large:focus {
+  padding: 7px 14px !important;
+  background-color: #AB9BFf;
+  color: #ffffff;
+  border: 3px solid rgba(123, 97, 255, 0.5); }
+
+.title {
+  font-size: 72px; }
+
+.hero-content {
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.hero-body {
+  width: 75%; }
+
+.hero-image {
+  width: 25%; }
+
+.is-fullheight {
+  height: 100%; }
+
+.is-fullwidth {
+  width: 100%; }
+
+.d-flex {
+  display: flex; }
+
+.items-center {
+  align-items: center; }
+
+.justify-center {
+  justify-content: center; }
+
+.columns {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+
+.column {
+  width: 33.33%; }
+
+.features {
+  max-width: 992px;
+  margin-right: auto;
+  margin-left: auto; }
+
+.features header {
+  margin-bottom: 20px; }
+
+.features .subtitle {
+  font-size: 56px;
+  text-align: center; }
+
+.mountain-illustration {
+  background-image: url("/assets/images/mountain-illustration.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+img.card-image {
+  width: 100%;
+  height: auto; }
