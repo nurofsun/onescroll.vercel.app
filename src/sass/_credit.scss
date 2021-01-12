@@ -12,8 +12,28 @@
   color: $card-text-color;
   overflow: hidden;
   border-radius: 3px;
+  text-align: center;
 }
 
 .credit-background {
   background-color: #624fc0;
+}
+
+.credit img {
+  width: 64px;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+@include for-desktop-up {
+  .credit .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  .credit img {
+    margin-right: 10px;
+  }
 }

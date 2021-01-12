@@ -875,9 +875,9 @@
     fastq "^1.6.0"
 
 "@nurofsun/onescroll@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@nurofsun/onescroll/-/onescroll-1.0.3.tgz#d56109a4533da71c0482ff2a9da16b86a1c5e760"
-  integrity sha512-xu8QLS6zQFEKp9CHcFNRclhpBUVriIwqDmZ8smYkgKiCCvn/cfPIdei9vsDzTS9/ySxvr1n6TIL4eN1G7083Kg==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@nurofsun/onescroll/-/onescroll-1.0.4.tgz#98e21f81a10bbc76f8e66190637c2f5603746bd5"
+  integrity sha512-d7Wx/k/VOhtn5cv5bL8DYmbYq/xdD6kUTCrDqIUkFa41OvdMdOEGAkXg9Umf4v9W+XfqsJPzH7f3Qvwjh4Uy0A==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
