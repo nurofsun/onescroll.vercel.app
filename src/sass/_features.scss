@@ -1,0 +1,28 @@
+.features {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.features header {
+  width: 100%;
+}
+.features-content {
+  padding-top: 20px;
+}
+.features-title {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.mountain-illustration {
+  background-image: url('/assets/images/mountain-illustration.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@include for-desktop-up {
+  .features-title {
+    font-size: 2.5rem;
+  }
+}

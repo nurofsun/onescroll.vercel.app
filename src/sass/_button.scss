@@ -1,0 +1,65 @@
+.button {
+  display: inline-block;
+  padding: $button-padding;
+  overflow: hidden;
+  text-align: center;
+  background-color: $button-background;
+  font-weight: 500;
+  color: $button-text-color;
+  font-size: $button-text-size;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: $button-hover-background-color;
+  color: $button-hover-text-color;
+}
+
+.button:focus {
+  padding: 2px 9px !important;
+  background-color: $button-focus-background-color;
+  color: $button-hover-text-color;
+  border: $button-focus-border;
+}
+.button.has-addons {
+  display: inline-flex;
+  align-items: center;
+}
+.button.has-addons span.icon {
+  display: inherit;
+  margin-left: 10px;
+  width: 24px;
+  height: auto;
+}
+.button.has-addons span.icon svg path {
+  fill: $button-text-color;
+}
+.button.has-addons:hover span.icon svg path {
+  fill: $button-hover-text-color;
+}
+
+.button.has-addons:focus span.icon svg path {
+  fill: $button-hover-text-color;
+}
+
+
+@include for-desktop-up {
+  .button.is-large {
+    padding: $button-padding-large;
+    font-size: $button-text-size-large;
+  }
+  .button.is-large.has-addons span.icon {
+    width: 32px;
+    height: auto;
+    display: inherit;
+  }
+  .button.is-large.has-addons:hover span.icon svg path {
+    fill: $button-hover-text-color;
+  }
+  .button.is-large.has-addons:focus span.icon svg path {
+    fill: $button-hover-text-color;
+  }
+  .button.is-large:focus {
+    padding: 7px 14px !important;
+  }
+}

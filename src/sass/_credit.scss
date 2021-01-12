@@ -1,0 +1,19 @@
+.credit {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.credit .box {
+  padding: 15px;
+  background-color: $card-background;
+  color: $card-text-color;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.credit-background {
+  background-color: #624fc0;
+}

@@ -1,0 +1,17 @@
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.columns.is-multiline {
+  flex-wrap: wrap;
+}
+.column {
+  width: 100%;
+}
+@include for-tablet-up {
+  .column {
+    width: 30%;
+  }
+}

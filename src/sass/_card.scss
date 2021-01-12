@@ -1,28 +1,50 @@
+.card {
+  background-color: $card-background;
+  color: $card-text-color;
+  box-shadow: 0px 50px 50px rgba(78, 58, 182, 0.25);
+  border-radius: 6px;
+  padding: 10px 17px;
+  margin-bottom: 20px;
+}
+
 .card.is-blue {
   background-color: #5D3DFF !important;
   color: $card-background !important;
   box-shadow: 0px 50px 50px rgba(78, 58, 182, 0.25);
-  border-radius: 12px;
-  padding: 20px;
-  margin: 10px;
-  transform: translateY(35px);
-}
-.card:not(:nth-child(2)) {
-  background-color: $card-background;
-  color: $card-text-color;
-  box-shadow: 0px 50px 50px rgba(78, 58, 182, 0.25);
-  border-radius: 12px;
-  padding: 20px;
-  margin: 10px;
 }
 
-.card-title {
-  font-size: 20px;
-  font-weight: medium;
+.card-body {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-image {
+  width: 25%;
+  height: auto;
+  margin-right: 15px;
 }
 
 .card-paragraph {
-  margin-top: 10px;
+  width: 75%;
+  font-size: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: medium;
   margin-bottom: 10px;
-  font-size: 18px;
+}
+
+@include for-desktop-up {
+  .card {
+    padding: 15px 20px;
+  }
+  .card::last-child {
+    margin-right: 0px;
+  }
+  .card.is-blue {
+    transform: translateY(35px);
+  }
 }

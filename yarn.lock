@@ -874,10 +874,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@nurofsun/onescroll@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@nurofsun/onescroll/-/onescroll-1.0.1.tgz#84529ee36d1d475fa140c0553bc3bfd39a33088b"
-  integrity sha512-K6xx5J5IF3m480PbkZpGaOeH8nmBQlNqhMijT8uFN7yfD1rZHdGhzKuX0IjFx0x6krwKmJex97EjUpymMFWOoQ==
+"@nurofsun/onescroll@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@nurofsun/onescroll/-/onescroll-1.0.3.tgz#d56109a4533da71c0482ff2a9da16b86a1c5e760"
+  integrity sha512-xu8QLS6zQFEKp9CHcFNRclhpBUVriIwqDmZ8smYkgKiCCvn/cfPIdei9vsDzTS9/ySxvr1n6TIL4eN1G7083Kg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
