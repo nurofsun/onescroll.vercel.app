@@ -26,8 +26,12 @@
   align-items: center;
 }
 .button.has-addons span.icon {
-  display: inherit;
+  display: inline-flex;
   margin-left: 10px;
+  width: 24px;
+  height: auto;
+}
+.button.has-addons span.icon svg {
   width: 24px;
   height: auto;
 }
@@ -49,9 +53,13 @@
     font-size: $button-text-size-large;
   }
   .button.is-large.has-addons span.icon {
+    display: inline-flex;
     width: 32px;
     height: auto;
-    display: inherit;
+  }
+  .button.is-large.has-addons span.icon svg {
+    width: 32px;
+    height: auto;
   }
   .button.is-large.has-addons:hover span.icon svg path {
     fill: $button-hover-text-color;
